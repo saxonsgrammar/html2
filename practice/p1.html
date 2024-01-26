@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Practice 1</title>
+    </head>
+    <style>
+        div {
+            background-color: white;
+            width: 300px;
+            height: 50px;
+            border-style: ridge;
+            border-color: orange;
+        }
+        div.style {
+            background-color: orange;
+            width: 60px;
+            margin-top: -3px;
+            margin-left: -3px;
+            animation: anime 5s infinite
+            
+        }
+        @keyframes anime {
+                0%  {
+                    transform: translate(60px, 0px);
+                }
+                12.5% {
+                    transform: translate(120px, 0px);
+                }
+                25% {
+                    transform: translate(180px, 0px);
+                }
+                37.5% {
+                    transform: translate(240px, 0px);
+                }
+                50% {
+                    transform: translate(180px, 0px);
+                }
+                62.5% {
+                    transform: translate(120px, 0px);
+                }
+                75% {
+                    transform: translate(60px, 0px);
+                }
+                87.5% {
+                    transform: translate(0px, 0px);
+                }
+                100% {
+                    transform: translate(60px, 0px);
+                }
+        }
+    </style>
+    <body>
+        <div>
+            <div class="style"></div>
+        </div>
+    </body>
+</html>
